@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C65470FC2BB05132007C1A72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65470FB2BB05132007C1A72 /* AppDelegate.swift */; };
+		C65470FE2BB05132007C1A72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65470FD2BB05132007C1A72 /* SceneDelegate.swift */; };
+		C65471002BB05132007C1A72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65470FF2BB05132007C1A72 /* ViewController.swift */; };
+		C65471032BB05132007C1A72 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C65471022BB05132007C1A72 /* Base */; };
+		C65471052BB05133007C1A72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C65471042BB05133007C1A72 /* Assets.xcassets */; };
+		C65471082BB05133007C1A72 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C65471072BB05133007C1A72 /* Base */; };
+		C65471132BB05133007C1A72 /* TenkiNaviTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65471122BB05133007C1A72 /* TenkiNaviTests.swift */; };
+		C654711D2BB05133007C1A72 /* TenkiNaviUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C654711C2BB05133007C1A72 /* TenkiNaviUITests.swift */; };
+		C654711F2BB05133007C1A72 /* TenkiNaviUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C654711E2BB05133007C1A72 /* TenkiNaviUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C654710F2BB05133007C1A72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C65470F02BB05132007C1A72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C65470F72BB05132007C1A72;
+			remoteInfo = TenkiNavi;
+		};
+		C65471192BB05133007C1A72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C65470F02BB05132007C1A72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C65470F72BB05132007C1A72;
+			remoteInfo = TenkiNavi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C65470F82BB05132007C1A72 /* TenkiNavi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenkiNavi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65470FB2BB05132007C1A72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C65470FD2BB05132007C1A72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C65470FF2BB05132007C1A72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C65471022BB05132007C1A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C65471042BB05133007C1A72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C65471072BB05133007C1A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C65471092BB05133007C1A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C654710E2BB05133007C1A72 /* TenkiNaviTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TenkiNaviTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65471122BB05133007C1A72 /* TenkiNaviTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenkiNaviTests.swift; sourceTree = "<group>"; };
+		C65471182BB05133007C1A72 /* TenkiNaviUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TenkiNaviUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C654711C2BB05133007C1A72 /* TenkiNaviUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenkiNaviUITests.swift; sourceTree = "<group>"; };
+		C654711E2BB05133007C1A72 /* TenkiNaviUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenkiNaviUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C65470F52BB05132007C1A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C654710B2BB05133007C1A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C65471152BB05133007C1A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C65470EF2BB05132007C1A72 = {
+			isa = PBXGroup;
+			children = (
+				C65470FA2BB05132007C1A72 /* TenkiNavi */,
+				C65471112BB05133007C1A72 /* TenkiNaviTests */,
+				C654711B2BB05133007C1A72 /* TenkiNaviUITests */,
+				C65470F92BB05132007C1A72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C65470F92BB05132007C1A72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C65470F82BB05132007C1A72 /* TenkiNavi.app */,
+				C654710E2BB05133007C1A72 /* TenkiNaviTests.xctest */,
+				C65471182BB05133007C1A72 /* TenkiNaviUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C65470FA2BB05132007C1A72 /* TenkiNavi */ = {
+			isa = PBXGroup;
+			children = (
+				C65470FB2BB05132007C1A72 /* AppDelegate.swift */,
+				C65470FD2BB05132007C1A72 /* SceneDelegate.swift */,
+				C65470FF2BB05132007C1A72 /* ViewController.swift */,
+				C65471012BB05132007C1A72 /* Main.storyboard */,
+				C65471042BB05133007C1A72 /* Assets.xcassets */,
+				C65471062BB05133007C1A72 /* LaunchScreen.storyboard */,
+				C65471092BB05133007C1A72 /* Info.plist */,
+			);
+			path = TenkiNavi;
+			sourceTree = "<group>";
+		};
+		C65471112BB05133007C1A72 /* TenkiNaviTests */ = {
+			isa = PBXGroup;
+			children = (
+				C65471122BB05133007C1A72 /* TenkiNaviTests.swift */,
+			);
+			path = TenkiNaviTests;
+			sourceTree = "<group>";
+		};
+		C654711B2BB05133007C1A72 /* TenkiNaviUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C654711C2BB05133007C1A72 /* TenkiNaviUITests.swift */,
+				C654711E2BB05133007C1A72 /* TenkiNaviUITestsLaunchTests.swift */,
+			);
+			path = TenkiNaviUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C65470F72BB05132007C1A72 /* TenkiNavi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65471222BB05133007C1A72 /* Build configuration list for PBXNativeTarget "TenkiNavi" */;
+			buildPhases = (
+				C65470F42BB05132007C1A72 /* Sources */,
+				C65470F52BB05132007C1A72 /* Frameworks */,
+				C65470F62BB05132007C1A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TenkiNavi;
+			productName = TenkiNavi;
+			productReference = C65470F82BB05132007C1A72 /* TenkiNavi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C654710D2BB05133007C1A72 /* TenkiNaviTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65471252BB05133007C1A72 /* Build configuration list for PBXNativeTarget "TenkiNaviTests" */;
+			buildPhases = (
+				C654710A2BB05133007C1A72 /* Sources */,
+				C654710B2BB05133007C1A72 /* Frameworks */,
+				C654710C2BB05133007C1A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C65471102BB05133007C1A72 /* PBXTargetDependency */,
+			);
+			name = TenkiNaviTests;
+			productName = TenkiNaviTests;
+			productReference = C654710E2BB05133007C1A72 /* TenkiNaviTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C65471172BB05133007C1A72 /* TenkiNaviUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65471282BB05133007C1A72 /* Build configuration list for PBXNativeTarget "TenkiNaviUITests" */;
+			buildPhases = (
+				C65471142BB05133007C1A72 /* Sources */,
+				C65471152BB05133007C1A72 /* Frameworks */,
+				C65471162BB05133007C1A72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C654711A2BB05133007C1A72 /* PBXTargetDependency */,
+			);
+			name = TenkiNaviUITests;
+			productName = TenkiNaviUITests;
+			productReference = C65471182BB05133007C1A72 /* TenkiNaviUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C65470F02BB05132007C1A72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C65470F72BB05132007C1A72 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C654710D2BB05133007C1A72 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C65470F72BB05132007C1A72;
+					};
+					C65471172BB05133007C1A72 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C65470F72BB05132007C1A72;
+					};
+				};
+			};
+			buildConfigurationList = C65470F32BB05132007C1A72 /* Build configuration list for PBXProject "TenkiNavi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C65470EF2BB05132007C1A72;
+			productRefGroup = C65470F92BB05132007C1A72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C65470F72BB05132007C1A72 /* TenkiNavi */,
+				C654710D2BB05133007C1A72 /* TenkiNaviTests */,
+				C65471172BB05133007C1A72 /* TenkiNaviUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C65470F62BB05132007C1A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65471052BB05133007C1A72 /* Assets.xcassets in Resources */,
+				C65471082BB05133007C1A72 /* Base in Resources */,
+				C65471032BB05132007C1A72 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C654710C2BB05133007C1A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C65471162BB05133007C1A72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C65470F42BB05132007C1A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65471002BB05132007C1A72 /* ViewController.swift in Sources */,
+				C65470FC2BB05132007C1A72 /* AppDelegate.swift in Sources */,
+				C65470FE2BB05132007C1A72 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C654710A2BB05133007C1A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65471132BB05133007C1A72 /* TenkiNaviTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C65471142BB05133007C1A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C654711F2BB05133007C1A72 /* TenkiNaviUITestsLaunchTests.swift in Sources */,
+				C654711D2BB05133007C1A72 /* TenkiNaviUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C65471102BB05133007C1A72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C65470F72BB05132007C1A72 /* TenkiNavi */;
+			targetProxy = C654710F2BB05133007C1A72 /* PBXContainerItemProxy */;
+		};
+		C654711A2BB05133007C1A72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C65470F72BB05132007C1A72 /* TenkiNavi */;
+			targetProxy = C65471192BB05133007C1A72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C65471012BB05132007C1A72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C65471022BB05132007C1A72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C65471062BB05133007C1A72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C65471072BB05133007C1A72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C65471202BB05133007C1A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C65471212BB05133007C1A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C65471232BB05133007C1A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ZJC8B78ZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TenkiNavi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katz0726.TenkiNavi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C65471242BB05133007C1A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ZJC8B78ZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TenkiNavi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katz0726.TenkiNavi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C65471262BB05133007C1A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ZJC8B78ZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katz0726.TenkiNaviTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TenkiNavi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TenkiNavi";
+			};
+			name = Debug;
+		};
+		C65471272BB05133007C1A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ZJC8B78ZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katz0726.TenkiNaviTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TenkiNavi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TenkiNavi";
+			};
+			name = Release;
+		};
+		C65471292BB05133007C1A72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ZJC8B78ZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katz0726.TenkiNaviUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TenkiNavi;
+			};
+			name = Debug;
+		};
+		C654712A2BB05133007C1A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ZJC8B78ZG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.katz0726.TenkiNaviUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TenkiNavi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C65470F32BB05132007C1A72 /* Build configuration list for PBXProject "TenkiNavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65471202BB05133007C1A72 /* Debug */,
+				C65471212BB05133007C1A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65471222BB05133007C1A72 /* Build configuration list for PBXNativeTarget "TenkiNavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65471232BB05133007C1A72 /* Debug */,
+				C65471242BB05133007C1A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65471252BB05133007C1A72 /* Build configuration list for PBXNativeTarget "TenkiNaviTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65471262BB05133007C1A72 /* Debug */,
+				C65471272BB05133007C1A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65471282BB05133007C1A72 /* Build configuration list for PBXNativeTarget "TenkiNaviUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65471292BB05133007C1A72 /* Debug */,
+				C654712A2BB05133007C1A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C65470F02BB05132007C1A72 /* Project object */;
+}
