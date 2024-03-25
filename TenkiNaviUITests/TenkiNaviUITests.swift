@@ -2,7 +2,7 @@
 //  TenkiNaviUITests.swift
 //  TenkiNaviUITests
 //
-//  Created by shoya on 2024/03/24.
+//  Created by katz0726 on 2024/03/24.
 //
 
 import XCTest
